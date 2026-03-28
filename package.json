@@ -1,0 +1,27 @@
+{
+  "name": "sistema-escolar-1",
+  "version": "1.0.0",
+  "description": "Projeto sistema escolar",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo \"No build step defined\"",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "eslint . --ext .js,.ts",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "sistema",
+    "escolar"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
